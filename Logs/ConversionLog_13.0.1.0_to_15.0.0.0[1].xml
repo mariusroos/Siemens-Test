@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="Gen Integration_V15" typeText="Type" messageText="Message" timeText="Time">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:09:41 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Upgrade started" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:09:41 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Reading information from previous project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:09:42 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Creating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:09:44 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Exporting project/library data." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:09:47 PM" Debug="false">
+    <Text />
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:09:47 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Importing data into the new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:09:59 PM" Debug="false">
+    <Text />
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:01 PM" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:02 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:02 PM" Debug="false">
+    <Text>No lost+found object is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:02 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Importing data into the new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:04 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The project or the library is checked for consistency and completeness and is repaired." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:05 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:06 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Updating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information is being converted." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The cross-reference information was created successfully." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Conversion of the cross-reference information is finished." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:34 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Cleaning up outdated metadata." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Iecpl' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Iecpl_BlockInterface_V13.0.1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Iecpl_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'S7FP' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'S7FP_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Siemens.Automation.CommonServices.Library.V12SP1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Siemens.Automation.DomainModel.Online' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.HwConfiguration.Security.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Siemens.Simatic.Tech.SMC' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Meta Package 'Siemens.TechTrace.Device.Plc.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'HW.S71200.CB.RS485.MDD_6ES7241-1CH30-1XB0_1.0_12.0.0' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BSW.V13.0.1.0.NonMandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl_V13.0.1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Safety.Model_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.TechTrace.Device.Plc.Model' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl_V12' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Tech.SMC' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'HW.S71200.CPU.V4.CPU_1212C.MDD_6ES7212-1BE40-0XB0_4.1_13.0.1' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BSW.V12.0.1.0.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Iecpl.S7BSW.V13.0.1.1.Mandatory' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:12.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:12.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.STEP7.Basic:11.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:11.00.02.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:12.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:13.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:11.00.02.04' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:12.00.01.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:13.00.00.00' was deleted</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:10:38 PM" Debug="false">
+    <Text>Product version 'Siemens.Simatic.Portal:11.00.00.00' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:38 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Saving the upgraded project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:10:38 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Saving the upgraded project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="10/23/2020 1:10:38 PM">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="Project 'C:\Users\hanro\Documents\Siemens Prj\Gen Integration\Gen Integration\System\PEData.plf' was successfully upgraded and saved as project 'C:\Users\hanro\Documents\Siemens Prj\Gen Integration\Gen Integration_V15\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>

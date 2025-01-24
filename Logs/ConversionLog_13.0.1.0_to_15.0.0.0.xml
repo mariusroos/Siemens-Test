@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="Gen Integration" typeText="Type" messageText="Message" timeText="Time">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:00:41 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Upgrade started" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:00:41 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Reading information from previous project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:00:43 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Creating new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:00:44 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Exporting project/library data." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:00:48 PM" Debug="false">
+    <Text />
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="10/23/2020 1:00:48 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Importing data into the new project/library." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:00:58 PM" Debug="false">
+    <Text />
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Error" Timestamp="10/23/2020 1:01:00 PM">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="The upgrade has failed (not enough disk space available)." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:01:00 PM" Debug="false">
+    <Text>FS Server error: ReorganizationTask.IsDiskSpaceAvailable: False. Not enough disk space available. AvailableDiskSpace: 105803776; NecessaryDiskSpace: 111286420; Path: C:\Users\hanro\Documents\Siemens Prj\Gen Integration\Gen Integration_V15
+   at Siemens.Automation.ObjectFrame.FileStorage.Client.DataStoreExceptionHandler.ServerExceptionWrapper(Exception ex)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Client.BasicServerAccess.InternalRaiseServerException(Object sender, ServerExceptionEventArgs e)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Command.CommonRequestBase.HandleError(EventHandler`1 exceptionAction, StorageResponse response)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Command.CommonRequestBase.ExecuteForClient(Func`2 action, EventHandler`1 exceptionAction, IEncoderDecoder commandbuilder)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Ipc.IpcConnector.Execute(IStorageRequest request, EventHandler`1 exceptionAction)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Client.BasicServerAccess.InternalExecuteCommand(StorageRequest request)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Client.StorageOperation.BaseExecute(IStorageRequest request)
+   at Siemens.Automation.ObjectFrame.Private.ProviderExceptionHandler.ExecuteWithErrorHandler(Func`2 action, IStorageRequest request)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Client.StorageOperation.ExecuteCommand(StorageRequest request)
+   at Siemens.Automation.ObjectFrame.FileStorage.Base.Client.StorageOperation.Reorganize(String fullPath, Boolean force, Int32 processId, Boolean checkQualifyingParamter, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.FileStorage.Client.DataStoreManager.Reorganize(String url, Boolean force, Boolean checkQualifyingParamter, Guid groupToken, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.FileStorage.Client.Provider.Reorganize(String url, Boolean force, Boolean checkQualifyingParamter, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.Private.Configuration.CoreConfigurationData.DataProvider.ProviderWrapper.&lt;&gt;c__DisplayClass11_0.&lt;Reorganize&gt;b__0()
+   at Siemens.Automation.ObjectFrame.Private.Configuration.CoreConfigurationData.DataProvider.ProviderWrapper.ExceptionFunctionDecorator[T](Func`1 f)
+   at Siemens.Automation.ObjectFrame.Private.ProjectHandlingHelper.Reorganize(Boolean force, Boolean checkQualifyingParamter, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.Conversion.ConversionHandler.ReorganizeConvertedProject()
+   at Siemens.Automation.ObjectFrame.Conversion.ConversionHandler.Siemens.Automation.ObjectFrame.Conversion.IConversionHandler.RepairLostAndFoundCoreObjects()
+   at Siemens.Automation.ObjectFrame.Conversion.ConversionProcess.Run()</Text>
+  </Details>
+  <Details ServiceId="80" MessageId="30" Timestamp="10/23/2020 1:01:00 PM" Debug="false">
+    <Text>ReorganizationTask.IsDiskSpaceAvailable: False. Not enough disk space available. AvailableDiskSpace: 105803776; NecessaryDiskSpace: 111286420; Path: C:\Users\hanro\Documents\Siemens Prj\Gen Integration\Gen Integration_V15
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.ReOrganization.ReorganizationTask.IsDiskSpaceAvailable(Int32 factor, String fullPath, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.ReOrganization.ReorganizationTask.IntegrateFile(Boolean isThread, Boolean reintegration, Boolean upgradeToNewestMeta, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.ReOrganization.ReorganizationTask.ExecuteReorganization(Boolean isThread, Boolean throwExceptionOnError, String targetFullPath, Boolean updateMeta)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.ReOrganization.ReorganizationTask.Reorganize(String targetFullPath, Boolean upgradeToNewestMeta, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.ReOrganization.ReorganizationTask.SyncReorganizationTask.Reorganize(String targetFullPath, Boolean upgradeToNewestMeta, Boolean throwExceptionOnError)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.ReOrganization.ReorganizationController.Reorganize(Int32 storageId, Boolean force, Boolean checkQualifyingParamter, Boolean throwExceptionOnError, String targetFullPath, Boolean upgradeToNewestMeta)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.Kernel.CoreService.SyncCoreService.Reorganize(Int32 storageId, Boolean force, Boolean checkQualifyingParamter, Boolean throwExceptionOnError, String targetFullPath, Boolean upgradeToNewestMeta)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.Kernel.ServerAction.Siemens.Automation.ObjectFrame.Storage.Base.IStorageCommandVisitor&lt;Siemens.Automation.ObjectFrame.FileStorage.Base.Command.StorageResponse,Siemens.Automation.ObjectFrame.FileStorage.Base.Command.StorageRequest&gt;.OnReorganize(StorageRequest arg0)
+   at Siemens.Automation.ObjectFrame.FileStorage.Server.Kernel.StorageProxy.Execute(Byte[] requestBuff, Int32 connectionId)</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectFailed" MessageClass="Error" Timestamp="10/23/2020 1:01:00 PM">
+    <Number ServiceNumber="80" MessageNumber="33" />
+    <Text FeedbackText="Project 'C:\Users\hanro\Documents\Siemens Prj\Gen Integration\Gen Integration\System\PEData.plf' could not be upgraded." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+</LogFile>
